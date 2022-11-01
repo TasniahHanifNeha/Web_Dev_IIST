@@ -1,0 +1,38 @@
+
+/* -------------Responsive part start---------------- */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    /* Header Part Start */
+    .header{
+        width: 100%;
+    }
+    .logo img{
+        width: 35%;
+        /* display: none; */
+    }
+    /* Header Part End */
+
+    
+    .slider{
+        width: 100%;
+    }
+    
+    .details{
+        position: absolute;
+        left: 15%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------Responsive part end---------------- */

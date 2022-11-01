@@ -1,0 +1,222 @@
+
+a{text-decoration: none;color: #fff;} 
+/* Header Part Start */
+.header{
+    width: 1200px;
+    height: 80px;
+    background: #c4a993;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.icons{
+    width: 28px;
+}
+.logo img{
+    width: 15%;
+    height: 15%;
+    padding: 10px;
+    float: left;
+}
+.menu{
+    float: right;
+    padding-top: 20px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.5s;
+    color: #494646;
+}
+
+/* .menu ul li a:hover{
+    background: #000;
+    color: #fff;
+} */
+/* Header Part End */
+
+/* Slider Part Start*/
+
+.slider{
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    background:  linear-gradient(#74542acc,#2c2c2c99), url(images/two.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.details{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.slider h1{
+    color: #432350;
+    margin-bottom: 20px;
+}
+.slider p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+.slider a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: white;
+    border: 2px solid rgb(78, 77, 77);
+    background: maroon;
+    border-radius: 7px;
+}
+
+/* Slider Part End*/
+
+/* ------------service-------------- */
+
+.hero{margin: 0 auto; width: 1200px;}
+
+.service{
+    text-align: center;
+    margin: 30px 0;
+}
+.service h2{
+    padding-bottom: 8px;
+}
+span{color: #562669;}
+
+.service-box{
+    text-align: center;
+    display: grid;
+    margin-bottom: 25px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: repeat(auto-fit,290px); */
+    grid-template-columns: repeat(auto-fit,minmax(280px, auto));
+    gap: 5px;
+}
+.cards img{
+    width: 28%;
+    height: 27%;
+    border-radius: 50%;
+}
+
+.cards{
+    padding: 40px 25px;
+    background: #744c4c;
+    border-radius: 8px;
+}
+.cards h3{padding-bottom: 8px;}
+.cards p{padding-bottom: 8px; margin-bottom: 20px;}
+
+.cards a{
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px solid sandybrown;
+    color: #fff;
+    background: rgb(2, 2, 2);
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.cards a:hover{
+    background: #363535;
+}
+.animate{
+    animation: 0s moved linear infinite;
+    position: relative;
+
+}
+
+@keyframes moved{
+    /* from{
+        background-color: #432350;
+    }
+
+    to{
+        background-color: rgba(155, 66, 196, 0.61);
+    } */
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* footer part start */
+
+footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* .footer-main{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px, auto));
+    gap: 5px;
+}
+.block{
+    padding: 30px;
+    background: #558686;
+    display: grid;
+    text-align: center;
+    grid-template-rows: repeat(auto-fit, minmax(40px,auto));
+    width: 330px;
+}*/
+
+/* .block img{
+    width: 30px;
+}
+.block{
+    background: rgb(165, 87, 42);
+    width: 380px;
+    
+}
+.footer-main{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+
+    gap: 5px;
+} */
+
+.extra-footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.extra-footer-card img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 14px;
+    margin-right: 7px;
+}
+.extra-footer-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(390px,auto));
+    gap: .3%;
+}
+.extra-footer-card{
+    background-color: #c4a993;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+
+.extra-footer-card a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(116, 68, 20);
+    font-weight: 800;
+}
+.link img{
+    border: 1px solid rgb(111, 64, 143);
+    padding: 5px;
+}
+.extra-footer-card h3{
+    padding-bottom: 10px;
+}
+
