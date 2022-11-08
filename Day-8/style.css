@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./assets/images/bg.png) center;
+    
+}
+.my_container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.topbar{
+    background: #9e5bba;
+    max-height: 30px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 1px solid red;
+    box-shadow: 0 0 15px #361c42;
+}
+.top_right p{
+    display: inline-block;
+    border-right: 1px solid whitesmoke;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top_right a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Logo Part Start */
+
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 65%;
+    padding: 3px;
+    font-size: 14px;
+    outline: none;
+    padding: 5px 0;
+    border: 1px dotted #6d6c6c;
+    border-radius: 12px;
+}
+.logo_search button{
+    background: #eee;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-size: 11px;
+    text-shadow: 0 1px #ffffffbf;
+    padding: 4px 5px;
+}
+.logo1{
+    border-right: 1px dashed #ccc;
+    padding-right: 10px;
+}
+.logo2{
+    padding-left: 10px;
+}
+.logo_right{
+    padding-top: 30px;
+}
+/* Logo Part End */
+
+.nav-item a {
+    font-size: 13px;
+    color: #000;
+    padding-right: 5px;
+}
+.nav-item{
+    border-right: 1px solid #bebcbc;
+
+}
+/* ------banner------- */
+.banner{
+    border: 2px solid red;
+    padding: 8px;
+}
+/* ----slider--- */
+.slider{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.slider img{
+    height: 170px;
+    
+}
