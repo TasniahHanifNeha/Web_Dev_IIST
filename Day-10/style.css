@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./assets/images/bg.png) center; 
+}
+
+.my_container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.topbar{
+    background: #9e5bba;
+    height: 30px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+}
+.top_right p{
+    display: inline-block;
+    border-right: 1px solid whitesmoke;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top_right a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Logo Part Start */
+
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 40px;
+}
+.logo_search input{
+    width: 60%;
+}
+.logo1{
+    border-right: 1px solid #e9e3e3;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.logo_right{
+    padding-top: 20px;
+}
+.logo2 p{
+    font-size: 12px;
+}
+.nav-item a {
+    font-size: 13px;
+    color: #000;
+    padding-right: 5px;
+}
+/* .nav-item{
+    border-right: 1px solid #bebcbc;
+
+} */
+/* ------banner------- */
+.banner{
+    border: 2px solid red;
+    padding: 8px;
+}
+/* ----slider--- */
+.slider{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.slider img{
+    height: 170px;
+    
+}
+/* -----tab---- */
+.tab a{
+    font-size: 12px;
+    text-decoration: none;
+}
+/* ====list====== */
+
+.list h5{
+    color: #9e5bba;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 1.9rem;
+}
+.list ul li{
+    list-style: none;
+    border-bottom: 1px solid green;
+    display: inline-block;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+.list ul li p{
+    color: green;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
