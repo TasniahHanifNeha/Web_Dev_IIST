@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./img/download.gif) center;
+}
+.cont{
+    max-width: 996px;
+    margin: 0 auto;
+}
+.topbar{
+    background: #d85ec8;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid red;
+}
+.topbar{
+    color: #fff;
+}
+.right-top a{
+    color: #fff;
+    text-decoration: none;
+    border-left: 1px solid #fff;
+    padding-left: 3px;
+    margin-left: 3px;
+}
+
+/* ====header==== */
+
+.header{
+    margin-bottom: 2rem;
+}
+.logo{
+    height: 110px;
+    line-height: 110px;
+}
+.logo-search form input{
+    width: 60%;
+}
+.logo-links, .logo-search{
+    padding-top: 2rem;
+}
+.ff{
+    padding-right: 5px;
+    margin-right: 3px;
+    border-right: 1px solid #b6b4b4;
+}
+
+/* ===menubar== */
+.menubar ul li a{
+    font-size: 12px;
+    border-right: 1px solid #b6b4b4;
+    color: #000;
+}
+.menubar ul li a:hover{
+    background: rgb(46, 6, 6);
+    color: #fff;
+}
+
+/* ===hero=== */
+.hero{
+    padding-top: 2rem;
+}
+.banner img{
+    padding: 5px;
+    border: 2px solid red;
+}
+/* slider */
+.slider img{
+    height: 200px;
+    margin-top: 10px;
+}
+/* tab */
+.tab{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tab .row{
+    margin-left: 1.5rem;
+}
+.tab a{
+    text-decoration: none;
+    padding-left: 12px;
+    color: green;
+}
+
+/* link */
+.link ul li{
+    list-style: none;
+}
+.link ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 12px;
+}
+.link ul li p{
+    border-bottom: 1px solid green;
+    width: 60%;
+    font-size: 12px;
+}
+.link h6{
+    padding-left: 2rem;
+}
+
+/* ====sidebar===== */
+.sidebar img{
+    padding-top: 5px;
+}
+
+/* ===side-video=== */
+.side-video img{
+    height: 180px;
+}
+.side-video p{
+    background: green;
+    padding: 5px 0;
+    color: #fff;
+}
+.side-video iframe{
+    
+}
+/* ===left-tab=== */
+.left-tab img{
+    padding: 2px;
+}
+
+
+/* left-videos */
+.left-videos p{
+    background: green;
+    color: #fff;
+    padding: 5px 0;
+}
+
+
+/* ===footer=== */
+
+footer{
+    margin-top: 2rem;
+}
+
+
+.left-b-f ul li a{
+    text-decoration: none;
+    border-right: 1px solid #b6b4b4;
+    font-size: 12px;
+}
+.left-b-f p{
+    font-size: 12px;
+    color: #636161;
+    margin-left: 2.3rem;
+}
+.right-b-f p{
+    font-size: 12px;
+    color: #636161;
+}
